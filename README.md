@@ -4,7 +4,7 @@ Hello, my name is Mahan Shahabi and I am a driven graduate student from the Lass
 
 ## Skills
 
-**Proficient:** Java, C/C#/C++, Python, Agile/Scrum, Git, Eclipse
+**Proficient:** Java, C/C++, Python, Agile/Scrum, Git, Eclipse
 
 **Competent:** VS Code, RDBMS/SQL, Linux/Bash, Docker, Cloud
 
@@ -40,7 +40,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2024-present)**: Developed multiple software projects, utilizing a variety of tools and languages. Collaborated with team and management to ensure consistent delivery of high quality projects.
+**Software Developer, Jarvis (2024-present)**: Developed multiple software projects, utilizing a variety of tools and languages such as Linux/Bash, RDBMS/SQL, Docker, and Git among others. Collaborated with team and management to ensure consistent delivery of high quality projects.
 
 
 ## Education
@@ -53,9 +53,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
 - Worked in a team environment to design a science kit for STEM education in low-resource communities.
 - Presented and communicated project ideas with various PHDs and professors in the STEM field.
 - Finished within the top ten of all participating teams.
-- Assisting and providing guidance for students in previous years.
-- Working with fellow tutors and class representatives to organize group study sessions.
-- Responding to student emails to answer inquiries they have about course work.
+- Assisted and provided guidance for students in previous years.
+- Worked with fellow tutors and class representatives to organize group study sessions.
+- Responded to student emails to answer inquiries they have about course work.
 - Reference letter can be provided if needed.
 - Helped organize tools and files for ease of access.
 - Documented customer orders and purchase history.
