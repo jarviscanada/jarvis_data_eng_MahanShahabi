@@ -12,30 +12,30 @@ Hello, my name is Mahan Shahabi and I am a driven graduate student from the Lass
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/linux_sql)]: Implemented a Minimum Viable Product that demonstrates the effectiveness of the Cluster Monitoring Solution to help the LCA team meet their business needs. Utilized Docker and PostgreSQL to monitor and record system hardware specifications as well as resource usage.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Implemented a Minimum Viable Product that demonstrates the effectiveness of the Cluster Monitoring Solution to help the LCA team meet their business needs. Utilized Docker and PostgreSQL to monitor and record system hardware specifications as well as resource usage.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Grep App: Java implementation of the widely used Linux grep feature for non-Linux users. Made in Intellij utilizing Docker and Java to find specified keywords within all files of a specified directory and prints them in an output file in a specified location.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/springboot)]: Not Started
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/hadoop)]: Not Started
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
 
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/spark)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/cloud_devops)]: Not Started
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
-**ESSENCE CubeSat Mission**: Implemented functionality for a multiplexer used by a cube satellite in space  to retrieve data from temperature sensors using C and Arduino. Additionally, utilized the SPI library with Python for retrieving data to suit project schematics.
+**ESSENCE CubeSat Mission**: Implemented functionality for a multiplexer used by a cube satellite in space to retrieve data from temperature sensors using C and Arduino. Additionally, utilized the SPI library with Python for retrieving data to suit project schematics.
 
 
 ## Professional Experiences
@@ -44,8 +44,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
 
 
 ## Education
-**York University (2019-2023)**, Bachelor of Computer Science with Honours, Lassonde school of Engineering
-- York University Entrance Student Scholorship ($1000)
+**York university (2019-2023)**, Bachelor of Computer Science with Honours, Lassonde school of Engineering
+- York Univeristy Entrance Student Scholorship ($1000)
 - GPA: 3.3
 
 
@@ -56,7 +56,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
 - Assisted and provided guidance for students in previous years.
 - Worked with fellow tutors and class representatives to organize group study sessions.
 - Responded to student emails to answer inquiries they have about course work.
-- Reference letter can be provided if needed.
 - Helped organize tools and files for ease of access.
 - Documented customer orders and purchase history.
 - Assisted with customer service through mediating as a translator between foreign customers and fellow employees.
