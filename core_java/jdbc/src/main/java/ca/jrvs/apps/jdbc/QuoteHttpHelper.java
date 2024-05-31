@@ -11,13 +11,8 @@ import okhttp3.Response;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.sql.Timestamp;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class QuoteHttpHelper {
 
@@ -44,7 +39,7 @@ public class QuoteHttpHelper {
                 .build();
         try (Response response = client.newCall(request).execute()) {
             String responseBody = response.body().string();
-            // use logger to debug message
+            // trace log
             logger.debug(responseBody);
 
             ObjectMapper m = new ObjectMapper();
@@ -55,12 +50,18 @@ public class QuoteHttpHelper {
             return quote;
         } catch (JsonMappingException e) {
             e.printStackTrace();
+            // error log
+            logger.error(String.valueOf(new RuntimeException(e)));
             throw new RuntimeException(e);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
+            // error log
+            logger.error(String.valueOf(new RuntimeException(e)));
             throw new RuntimeException(e);
         } catch (IOException e) {
             e.printStackTrace();
+            // error log
+            logger.error(String.valueOf(new RuntimeException(e)));
             throw new RuntimeException(e);
         }
     }

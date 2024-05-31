@@ -28,7 +28,7 @@ public class QuoteService {
             return Optional.empty();
         }
         dao.save(quote);
-
+        logger.info("{} added to quote table", ticker); // trace log
         return dao.findById(ticker);
     }
 }

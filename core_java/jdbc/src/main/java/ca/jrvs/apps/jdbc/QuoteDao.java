@@ -26,6 +26,7 @@ public class QuoteDao implements CrudDao<Quote, String> {
             " timestamp = ? WHERE symbol = ?";
     private static final String DELETE = "DELETE FROM quote WHERE symbol = ?";
     private static final String DELETE_ALL = "DELETE FROM quote";
+    private final Logger logger = LoggerFactory.getLogger(QuoteHttpHelper.class);
     public QuoteDao(Connection c) {
         this.c = c;
     }
@@ -35,6 +36,8 @@ public class QuoteDao implements CrudDao<Quote, String> {
     @Override
     public Quote save(Quote entity) throws IllegalArgumentException {
         if (entity == null) {
+            // error log
+            logger.error(String.valueOf(new IllegalArgumentException("ID can not be null")));
             throw new IllegalArgumentException("ID can not be null");
         }
 
@@ -52,8 +55,12 @@ public class QuoteDao implements CrudDao<Quote, String> {
                 statement.setTimestamp(10, entity.getTimestamp());
                 statement.setString(11, entity.getTicker());
                 statement.execute();
+                // trace log
+                logger.info("stock updated in quote table");
             } catch (SQLException e) {
                 e.printStackTrace();
+                // error log
+                logger.error(String.valueOf(new RuntimeException(e)));
                 throw new RuntimeException(e);
             }
         } else {
@@ -70,8 +77,12 @@ public class QuoteDao implements CrudDao<Quote, String> {
                 statement.setString(10, entity.getChangePercent());
                 statement.setTimestamp(11, entity.getTimestamp());
                 statement.execute();
+                // trace log
+                logger.info("stock inserted in quote table");
             } catch (SQLException e) {
                 e.printStackTrace();
+                // error log
+                logger.error(String.valueOf(new RuntimeException(e)));
                 throw new RuntimeException(e);
             }
         }
@@ -81,6 +92,8 @@ public class QuoteDao implements CrudDao<Quote, String> {
     @Override
     public Optional<Quote> findById(String s) throws IllegalArgumentException {
         if (s == null) {
+            // error log
+            logger.error(String.valueOf(new IllegalArgumentException("ID can not be null")));
             throw new IllegalArgumentException("ID can not be null");
         }
 
@@ -104,6 +117,8 @@ public class QuoteDao implements CrudDao<Quote, String> {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            // error log
+            logger.error(String.valueOf(new RuntimeException(e)));
             throw new RuntimeException(e);
         }
         return Optional.empty();
@@ -131,6 +146,8 @@ public class QuoteDao implements CrudDao<Quote, String> {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            // error log
+            logger.error(String.valueOf(new RuntimeException(e)));
             throw new RuntimeException(e);
         }
         return entities;
@@ -147,6 +164,8 @@ public class QuoteDao implements CrudDao<Quote, String> {
             statement.execute();
         } catch (SQLException e) {
             e.printStackTrace();
+            // error log
+            logger.error(String.valueOf(new RuntimeException(e)));
             throw new RuntimeException(e);
         }
     }
@@ -157,6 +176,8 @@ public class QuoteDao implements CrudDao<Quote, String> {
             statement.execute();
         } catch (SQLException e) {
             e.printStackTrace();
+            // error log
+            logger.error(String.valueOf(new RuntimeException(e)));
             throw new RuntimeException(e);
         }
     }

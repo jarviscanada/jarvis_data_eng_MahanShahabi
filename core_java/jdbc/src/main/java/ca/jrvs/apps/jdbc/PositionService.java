@@ -28,8 +28,7 @@ public class PositionService {
         position.setNumOfShares(numberOfShares);
         position.setValuePaid(price);
         dao.save(position);
-        // debug table
-        logger.debug(dao.findById(ticker).get().getTicker());
+        logger.info("{} added to position table", ticker); // trace log
         return dao.findById(ticker).get();
     }
 
@@ -39,6 +38,6 @@ public class PositionService {
      */
     public void sell(String ticker) {
         dao.deleteById(ticker);
-        logger.debug(ticker);
+        logger.info("{} removed from position table", ticker); // trace log
     }
 }
