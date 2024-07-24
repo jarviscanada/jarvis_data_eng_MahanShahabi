@@ -1,0 +1,112 @@
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-05-31 14:28:58 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-05-31 14:29:00 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - user inputted 'buy'
+2024-05-31 14:29:03 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-05-31 14:29:03 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-05-31 14:29:03 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in position table with 3 shares at 573.87 each
+2024-05-31 14:29:03 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to position table
+2024-05-31 18:59:07 ERROR ca.jrvs.apps.jdbc.QuoteHttpHelper - java.sql.SQLException: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 10:41:33 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-03 10:41:35 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - user inputted 'buy'
+2024-06-03 10:41:41 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 10:41:41 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 10:41:41 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in position table with 2 shares at 384.5 each
+2024-06-03 10:41:41 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to position table
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 14:59:21 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 18:00:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-03 18:00:41 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - user inputted 'view stock'
+2024-06-03 18:00:44 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:00:44 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 18:02:37 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-03 18:02:39 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - user inputted 'view stock'
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:02:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:02:42 ERROR ca.jrvs.apps.jdbc.QuoteHttpHelper - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class ca.jrvs.apps.jdbc.util.GlobalQuote), not marked as ignorable (one known property: "Global Quote"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 13] (through reference chain: ca.jrvs.apps.jdbc.util.GlobalQuote["message"])
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 18:05:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-03 18:05:48 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - user inputted 'view stock'
+2024-06-03 18:06:26 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:06:26 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 18:06:40 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-03 18:06:42 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - user inputted 'buy'
+2024-06-03 18:06:47 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-03 18:06:47 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to quote table
+2024-06-03 18:06:47 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in position table with 3 shares at 582.09 each
+2024-06-03 18:06:47 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL added to position table
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 18:06:52 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-03 18:06:54 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - user inputted 'sell'
+2024-06-03 18:06:55 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock sold from position table
+2024-06-03 18:06:55 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - AAPL removed from position table
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - connection established
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteDao object created
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionDao object created
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteHttpHelper initialized with api-key: c477605b46msh6fe0f49c7c9e999p1c250bjsn5ec4019140a5
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - QuoteService object initialized with previously created QuoteDao and QuoteHttpHelper object
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - PositionService object initialized with previously created PositionDao object
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController object initialized with previously created QuoteService and PositionService objects
+2024-06-03 22:12:50 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - StockQuoteController's initClient() method called
+2024-06-06 11:11:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - stock updated in quote table
+2024-06-06 11:11:46 INFO  ca.jrvs.apps.jdbc.QuoteHttpHelper - MSFT added to quote table
