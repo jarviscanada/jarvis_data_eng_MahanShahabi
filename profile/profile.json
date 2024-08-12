@@ -1,0 +1,101 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "York Univeristy Entrance Student Scholorship ($1000)",
+        "GPA: 3.3"
+      ],
+      "degree": "Bachelor of Computer Science with Honours",
+      "department": "Lassonde school of Engineering",
+      "duration": "2019-2023",
+      "school_name": "York University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi",
+  "highlighted_projects": [
+    {
+      "description": "Implemented functionality for a multiplexer used by a cube satellite in space to retrieve data from temperature sensors using C and Arduino. Additionally, utilized the SPI library with Python for retrieving data to suit project schematics.",
+      "name": "ESSENCE CubeSat Mission"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a Minimum Viable Product that demonstrates the effectiveness of the Cluster Monitoring Solution to help the LCA team meet their business needs. Utilized Docker and PostgreSQL to monitor and record system hardware specifications as well as resource usage.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "JDBC App: Java Implementation of a Stock Quote app that finds stock information in real time and stores it in a SQL database. Utilized JDBC and OkHttp libraries to communicate with RDBMS and Alpha Vantage Rapid API in Java as well as Jackson library to parse JSON stock quote responses.",
+        "Grep App: Java implementation of the widely used Linux grep feature for non-Linux users. Made in Intellij utilizing Docker and Java to find specified keywords within all files of a specified directory and prints them in an output file in a specified location."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "built a Minimum Viable Product for a Bear-Tracking App that displays the location of bears on a webpage. Utilized Salesforce's Lightning Web Components and Apex to build the website.",
+      "git_url": "N/A",
+      "name": "Salesforce"
+    }
+  ],
+  "name": "Mahan Shahabi",
+  "others": [
+    {
+      "bullets": [
+        "Worked in a team environment to design a science kit for STEM education in low-resource communities.",
+        "Presented and communicated project ideas with various PHDs and professors in the STEM field.",
+        "Finished within the top ten of all participating teams."
+      ],
+      "title": "Pueblo Science Hackathon"
+    },
+    {
+      "bullets": [
+        "Assisted and provided guidance for students in previous years.",
+        "Worked with fellow tutors and class representatives to organize group study sessions.",
+        "Responded to student emails to answer inquiries they have about course work."
+      ],
+      "title": "NATS-AID Tutoring"
+    },
+    {
+      "bullets": [
+        "Helped organize tools and files for ease of access.",
+        "Documented customer orders and purcahse history.",
+        "Assisted with customer service through mediating as a translator between foreign customers and fellow employees."
+      ],
+      "title": "Coop Student at Optometrist"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developed multiple software projects, utilizing a variety of tools and languages such as Linux/Bash, RDBMS/SQL, Docker, and Git among others. Collaborated with team and management to ensure consistent delivery of high quality projects.",
+      "duration": "2024-present",
+      "title": "Software Developer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Eclipse",
+      "Python",
+      "Linux/Bash",
+      "Docker",
+      "HTML/CSS"
+    ],
+    "familiar": [
+      "Assembly",
+      "Cloud",
+      "Android Studio",
+      "JavaScript",
+      "Arduino"
+    ],
+    "proficient": [
+      "Java",
+      "C/C++",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "VS Code"
+    ]
+  },
+  "summary": "Hello, my name is Mahan Shahabi and I am a driven graduate student from the Lassonde School of Engineering at York University with communication and problem-solving skills honed through prior project and job experience aiming to leverage my studies in Computer Science for the software developing field. I would describe myself as a collaborative, goal-oriented person who enjoys the company of others. As a developer, I have experience creating Java and C/C++ applications with the ability to implement and manage SQL databases."
+}
