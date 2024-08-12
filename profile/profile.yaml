@@ -1,0 +1,117 @@
+# Preferred name (Characters only)
+name: "Mahan Shahabi"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: Hello, my name is Mahan Shahabi and I am a driven graduate student from the Lassonde School of Engineering at York University with communication and problem-solving skills honed through prior project and job experience aiming to leverage my studies in Computer Science for the software developing field. I would describe myself as a collaborative, goal-oriented person who enjoys the company of others. As a developer, I have experience creating Java and C/C++ applications with the ability to implement and manage SQL databases.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - C/C++
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+    - VS Code
+  # At least 5 skills
+  competent:
+    - Eclipse
+    - Python
+    - Linux/Bash
+    - Docker
+    - HTML/CSS
+  # At least 5 skills
+  familiar:
+    - Assembly
+    - Cloud
+    - Android Studio
+    - JavaScript
+    - Arduino
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description:  Implemented a Minimum Viable Product that demonstrates the effectiveness of the Cluster Monitoring Solution to help the LCA team meet their business needs. Utilized Docker and PostgreSQL to monitor and record system hardware specifications as well as resource usage.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      #- "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Java Implementation of a Stock Quote app that finds stock information in real time and stores it in a SQL database. Utilized JDBC and OkHttp libraries to communicate with RDBMS and Alpha Vantage Rapid API in Java as well as Jackson library to parse JSON stock quote responses."
+      - "Grep App: Java implementation of the widely used Linux grep feature for non-Linux users. Made in Intellij utilizing Docker and Java to find specified keywords within all files of a specified directory and prints them in an output file in a specified location."
+#  - name: "Springboot App"
+#    git_url:  "/springboot"
+#    description: ""
+#  - name: "Python Data Analytics"
+#    git_url: "/python_data_anlytics"
+#    description: ""
+#  - name: "Hadoop"
+#    git_url: "/hadoop"
+#    description: ""
+#  - name: "Spark"
+#    git_url: "/spark"
+#    description: ""
+#  - name: "Cloud/DevOps"
+#    git_url: "/cloud_devops"
+#    description: ""
+  - name: "Salesforce"
+    description: built a Minimum Viable Product for a Bear-Tracking App that displays the location of bears on a webpage. Utilized Salesforce's Lightning Web Components and Apex to build the website.
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "ESSENCE CubeSat Mission"
+    #URL is optional
+    #git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented functionality for a multiplexer used by a cube satellite in space to retrieve data from temperature sensors using C and Arduino. Additionally, utilized the SPI library with Python for retrieving data to suit project schematics.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed multiple software projects, utilizing a variety of tools and languages such as Linux/Bash, RDBMS/SQL, Docker, and Git among others. Collaborated with team and management to ensure consistent delivery of high quality projects."
+
+#List of edcuation
+education: 
+  - school_name: "York University"
+    duration: "2019-2023"
+    degree: "Bachelor of Computer Science with Honours"
+    department: "Lassonde school of Engineering"
+    # optional
+    awards_achievements: 
+      - "York Univeristy Entrance Student Scholorship ($1000)"
+      - "GPA: 3.3" 
+
+#Optional section
+others:
+    #category
+  - title: "Pueblo Science Hackathon"
+    #list of items
+    bullets:
+      - "Worked in a team environment to design a science kit for STEM education in low-resource communities."
+      - "Presented and communicated project ideas with various PHDs and professors in the STEM field."
+      - "Finished within the top ten of all participating teams."
+  - title: "NATS-AID Tutoring"
+    bullets:
+      - "Assisted and provided guidance for students in previous years."
+      - "Worked with fellow tutors and class representatives to organize group study sessions."
+      - "Responded to student emails to answer inquiries they have about course work."
+  - title: "Coop Student at Optometrist"
+    bullets:
+      - "Helped organize tools and files for ease of access."
+      - "Documented customer orders and purcahse history."
+      - "Assisted with customer service through mediating as a translator between foreign customers and fellow employees."
