@@ -4,11 +4,11 @@ Hello, my name is Mahan Shahabi and I am a driven graduate student from the Lass
 
 ## Skills
 
-**Proficient:** Java, C/C++, Python, Agile/Scrum, Git, Eclipse
+**Proficient:** Java, C/C++, RDBMS/SQL, Agile/Scrum, Git, VS Code
 
-**Competent:** VS Code, RDBMS/SQL, Linux/Bash, Docker, Cloud
+**Competent:** Eclipse, Python, Linux/Bash, Docker, HTML/CSS
 
-**Familiar:** Assembly, HTML/CSS, Android Studio, JavaScript, Arduino
+**Familiar:** Assembly, Cloud, Android Studio, JavaScript, Arduino
 
 ## Jarvis Projects
 
@@ -19,23 +19,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - JDBC App: Java Implementation of a Stock Quote app that finds stock information in real time and stores it in a SQL database. Utilized JDBC and OkHttp libraries to communicate with RDBMS and Alpha Vantage Rapid API in Java as well as Jackson library to parse JSON stock quote responses.
+  - Grep App: Java implementation of the widely used Linux grep feature for non-Linux users. Made in Intellij utilizing Docker and Java to find specified keywords within all files of a specified directory and prints them in an output file in a specified location.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/master/cloud_devops)]: Not Started
+**Salesforce** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/masterN/A)]: built a Minimum Viable Product for a Bear-Tracking App that displays the location of bears on a webpage. Utilized Salesforce's Lightning Web Components and Apex to build the website.
 
 
 ## Highlighted Projects
-**ESSENCE CubeSat Mission**: Implemented functionality for a multiplexer used by a cube satellite in space  to retrieve data from temperature sensors using C and Arduino. Additionally, utilized the SPI library with Python for retrieving data to suit project schematics.
+**ESSENCE CubeSat Mission**: Implemented functionality for a multiplexer used by a cube satellite in space to retrieve data from temperature sensors using C and Arduino. Additionally, utilized the SPI library with Python for retrieving data to suit project schematics.
 
 
 ## Professional Experiences
@@ -45,7 +36,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
 
 ## Education
 **York University (2019-2023)**, Bachelor of Computer Science with Honours, Lassonde school of Engineering
-- York University Entrance Student Scholorship ($1000)
+- York Univeristy Entrance Student Scholorship ($1000)
 - GPA: 3.3
 
 
@@ -56,7 +47,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
 - Assisted and provided guidance for students in previous years.
 - Worked with fellow tutors and class representatives to organize group study sessions.
 - Responded to student emails to answer inquiries they have about course work.
-- Reference letter can be provided if needed.
 - Helped organize tools and files for ease of access.
-- Documented customer orders and purchase history.
+- Documented customer orders and purcahse history.
 - Assisted with customer service through mediating as a translator between foreign customers and fellow employees.
