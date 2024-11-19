@@ -8,7 +8,7 @@ Hello, my name is Mahan Shahabi and I am a driven graduate student from the Lass
 
 **Competent:** Eclipse, Python, Linux/Bash, Docker, HTML/CSS
 
-**Familiar:** Assembly, Cloud, Android Studio, JavaScript, Arduino
+**Familiar:** Assembly, Cloud, Android Studio, JavaScript, Arduino, PySpark, DataBricks
 
 ## Jarvis Projects
 
@@ -23,6 +23,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahanShaha
   - Grep App: Java implementation of the widely used Linux grep feature for non-Linux users. Made in Intellij utilizing Docker and Java to find specified keywords within all files of a specified directory and prints them in an output file in a specified location.
 
 **Salesforce** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/masterN/A)]: built a Minimum Viable Product for a Bear-Tracking App that displays the location of bears on a webpage. Utilized Salesforce's Lightning Web Components and Apex to build the website.
+
+**PySpark Fundamentals** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahanShahabi/tree/masterN/A)]: Completed various ETL jobs using PySpark on the Databricks platform. Utilized various data files, such as CSV and Parquet, to perform transformations, including column partitioning, using DataFrames and navigation of the Hadoop file system.
 
 
 ## Highlighted Projects
