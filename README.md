@@ -8,7 +8,7 @@ Hello, my name is Mahan Shahabi and I am a driven graduate student from the Lass
 
 **Competent:** Eclipse, Python, Linux/Bash, Docker, HTML/CSS
 
-**Familiar:** Assembly, Cloud, Android Studio, JavaScript, Arduino, PySpark, DataBricks
+**Familiar:** Assembly, Cloud, Android Studio, JavaScript, Arduino, PySpark, DataBricks, Scala
 
 ## Jarvis Projects
 
