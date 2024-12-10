@@ -36,6 +36,11 @@
       "description": "built a Minimum Viable Product for a Bear-Tracking App that displays the location of bears on a webpage. Utilized Salesforce's Lightning Web Components and Apex to build the website.",
       "git_url": "N/A",
       "name": "Salesforce"
+    },
+    {
+      "description": "Completed various ETL jobs using PySpark on the Databricks platform. Utilized various data files, such as CSV and Parquet, to perform transformations, including column partitioning, using DataFrames and navigation of the Hadoop file system.",
+      "git_url": "N/A",
+      "name": "PySpark Fundamentals"
     }
   ],
   "name": "Mahan Shahabi",
@@ -86,7 +91,10 @@
       "Cloud",
       "Android Studio",
       "JavaScript",
-      "Arduino"
+      "Arduino",
+      "PySpark",
+      "DataBricks",
+      "Scala"
     ],
     "proficient": [
       "Java",
